@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #eeeee4;
+}
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.5) !important;
+    padding: 1.5%;
+    z-index: 1;
+}
+.nav-link
+{
+    margin-left: 5%;
+    padding: 0.5% 3%;
+    border-radius: 0 25px;
+    color: black !important;
+    font-weight: bold !important;
+    transition: 0.5s ease-in-out;
+}
+.nav-link:hover
+{
+    color: black !important;
+    background-color: aquamarine;
+    border-radius: 25px 0;
+}
+.navbar-nav
+{
+    width: 100%;
+    align-items: end;
+    text-align: end;
+    justify-content: end;
+    margin-right: 5%;
+}
+.navbar-brand
+{
+    color: white !important;
+}
+
+#home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/wasteFoodHome.png);
+    background-size: cover;
+}
+
+.container
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+
+.topic
+{
+    font-size: 100px;
+    font-family: bold;
+    background-image: url(images/wasteFood.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Alkatra', cursive;
+}
+.hl
+{
+    font-size: 20px;
+    
+}
+.rd
+{
+    font-size: 80px;
+    color: red;
+}
+
+
+#OurGoals
+{
+    margin-bottom: 300px;
+}
+h2
+{
+    text-align: center;
+    margin: 5% 0;
+    font-size: 70px;
+}
+
+.containerForCard .card{
+    display: inline-block;
+    width: 28%;
+    height: 500px;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: 5px 5px 10px aquamarine;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+.front
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+.front img
+{
+    width: 30%;
+    border-radius: 50%;
+}
+.head
+{
+    font-size: 50px;
+}
+hr
+{
+    width: 50%;
+    border-top: 10px dotted;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.content
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.reduce
+{
+    color: green;
+}
+.donate
+{
+    color: purple;
+}
+.recycle
+{
+    color: red;
+}
+
+.card:hover .front
+{
+    opacity: 0;
+}
+.card:hover .content
+{
+    opacity: 1;
+}
+
+
+.hilCon
+{
+    width: 45%;
+    font-size: 20px;
+    margin-left: 3%;
+    display: inline-block;
+    line-height: 200%;
+}
+
+#highlights img
+{
+    display: inline-block;
+    width: 45%;
+    height: 70vh;
+    position: absolute;
+    right: 5%;
+}
+
+#footer
+{
+    border-top: 5px solid gray;
+    background-color: #f7f7de;
+    padding: 5%;
+    width: 100%;
+    position: relative;
+}
+
+#footer .img
+{
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+}
+
+.footerText
+{
+    width: 50%;
+    font-size: 20px;
+}
+
+.copy
+{
+    width: 100%;
+    margin: 5% 0 0 ;
+    align-items: center;
+    text-align: center; 
+}
+
+
+
+::selection
+{
+    background-color: green;
+    color: white;
+}
